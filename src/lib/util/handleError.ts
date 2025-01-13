@@ -1,6 +1,6 @@
 import {
   DEBUG_ALERT_MSG, GLOBAL_STATE_CACHE_KEY, GRAMJS_SESSION_ID_KEY,
-} from '../config';
+} from '../../config';
 import { throttle } from './schedulers';
 
 window.addEventListener('error', handleErrorEvent);
